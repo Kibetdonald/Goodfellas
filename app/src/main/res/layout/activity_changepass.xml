@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+
+   android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Oldpass"
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Old password"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        android:textColorHint="#011B02"
+
+
+        />
+    <EditText
+        android:id="@+id/Newpass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New password"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:textColorHint="#011B02"
+
+       />
+    <EditText
+        android:id="@+id/Confirmpass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:textSize="24sp"
+        android:inputType="textMultiLine"
+        android:textColorHint="#011B02"
+
+
+        />
+
+</LinearLayout>
